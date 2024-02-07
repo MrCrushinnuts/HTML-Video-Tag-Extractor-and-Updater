@@ -16,14 +16,10 @@ This Python script simplifies the process of embedding videos into HTML files by
 
 git clone https://github.com/your-username/html-video-tag-extractor.git
 
-markdown
-
 
 2. **Install dependencies:**
 
 pip install requests beautifulsoup4
-
-markdown
 
 
 ## Usage
@@ -31,8 +27,6 @@ markdown
 1. **Run the script:**
 
 python main.py
-
-markdown
 
 
 2. **Enter the website URL when prompted.**

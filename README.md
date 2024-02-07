@@ -1,55 +1,51 @@
-HTML Video Tag Extractor and Updater
+# HTML Video Tag Extractor and Updater
 
-This Python script simplifies the process of embedding videos into HTML files by automating the extraction and updating tasks. It allows users to fetch video tags (specifically <iframe>, <object>, and <video>) from the HTML content of a website and update HTML files with selected video tags.
-Features
+This Python script simplifies the process of embedding videos into HTML files by automating the extraction and updating tasks. It allows users to fetch video tags (specifically `<iframe>`, `<object>`, and `<video>`) from the HTML content of a website and update HTML files with selected video tags.
 
-    Fetch HTML content from a website URL.
-    Extract video tags from the fetched HTML content.
-    Save extracted video tags to a text file.
-    Choose and update HTML files with selected video tags.
-    Supports updating multiple HTML files in different directories.
+## Features
 
-Installation
+- Fetch HTML content from a website URL.
+- Extract video tags from the fetched HTML content.
+- Save extracted video tags to a text file.
+- Choose and update HTML files with selected video tags.
+- Supports updating multiple HTML files in different directories.
 
-    Clone the repository:
+## Installation
+
+1. **Clone the repository:**
 
 git clone https://github.com/your-username/html-video-tag-extractor.git
 
-Install dependencies:
+markdown
 
-    pip install requests beautifulsoup4
 
-Usage
+2. **Install dependencies:**
 
-    python main.py
+pip install requests beautifulsoup4
 
-    Enter the website URL when prompted.
+markdown
 
-    Follow the instructions to choose an <iframe> tag and specify the HTML file to update.
 
-Tutorial
-Fetching Video Tags
+## Usage
 
-    Enter the URL of the website containing the video(s) you want to extract.
-    The script will fetch the HTML content from the provided URL.
-    It will then extract the video tags (<iframe>, <object>, <video>) from the HTML content.
+1. **Run the script:**
 
-Saving Video Tags
+python main.py
 
-    Extracted video tags will be saved to a text file named iframe.txt in the script directory.
+markdown
 
-Updating HTML Files
 
-    Choose an <iframe> tag from the saved list.
-    Select the HTML file you want to update.
-    The script will update the chosen HTML file with the selected <iframe> tag.
+2. **Enter the website URL when prompted.**
 
-Note: The script may not work with all websites, especially those that dynamically load content, such as YouTube. For such websites, manual embedding may be required.
-Example
+3. **Follow the instructions to choose an `<iframe>` tag and specify the HTML file to update.**
+
+## Example
 
 Suppose you want to embed a video from a website that supports direct embedding:
-
-    Run the script and enter the URL of the page containing the video.
+1. Run the script and enter the URL of the page containing the video.
+2. Choose the appropriate `<iframe>` tag from the list.
+3. Specify the HTML file where you want to embed the video.
+4. The script will update the HTML file with the selected `<iframe>` tag, embedding
     Choose the appropriate <iframe> tag from the list.
     Specify the HTML file where you want to embed the video.
     The script will update the HTML file with the selected <iframe> tag, embedding the video.

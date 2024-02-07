@@ -11,23 +11,23 @@ Features
 
 Installation
 
-Clone the repository:
+    Clone the repository:
 
 git clone https://github.com/your-username/html-video-tag-extractor.git
 
 Install dependencies:
 
- pip install requests beautifulsoup4
+    pip install requests beautifulsoup4
 
 Usage
-    
-python main.py
 
-Enter the website URL when prompted.
+    python main.py
 
-Follow the instructions to choose an <iframe> tag and specify the HTML file to update.
+    Enter the website URL when prompted.
 
+    Follow the instructions to choose an <iframe> tag and specify the HTML file to update.
 
+Tutorial
 Fetching Video Tags
 
     Enter the URL of the website containing the video(s) you want to extract.
@@ -53,7 +53,3 @@ Suppose you want to embed a video from a website that supports direct embedding:
     Choose the appropriate <iframe> tag from the list.
     Specify the HTML file where you want to embed the video.
     The script will update the HTML file with the selected <iframe> tag, embedding the video.
-    The script will update the HTML file with the selected <iframe> tag, embedding the video.
-
-Contributing:
-Contributions are welcome! If you encounter any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
